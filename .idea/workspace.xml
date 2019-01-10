@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3fa72336-c2a7-4672-a55a-ac0b71ce342c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ui/pre_study_1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ui/pre_test_1_training.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>txt_duration</find>
+      <find>x_tactors</find>
+      <find>generate_phantom_vib</find>
+      <find>duration</find>
+      <find>c_btn1_end</find>
+      <find>choose_action_2</find>
+      <find>choose_action_1</find>
+      <find>tactor_layout_frame</find>
+      <find>logo_path</find>
+      <find>generate_order_official</find>
+      <find>res_list</find>
+      <find>print</find>
+      <find>3</find>
+      <find>generate_tactile_brush_results</find>
+      <find>text</find>
+      <find>save_res</find>
+      <find>generate_random_order</find>
+      <find>label_order</find>
+      <find>v_body_position</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/venv/Include/test.py" />
+        <option value="$PROJECT_DIR$/illusion/AppTactileMotion.py" />
+        <option value="$PROJECT_DIR$/illusion/four_tactor_algo.py" />
+        <option value="$PROJECT_DIR$/illusion/app_tactile_motion.py" />
+        <option value="$PROJECT_DIR$/illusion/vibrator.py" />
+        <option value="$PROJECT_DIR$/illusion/tactile_stroke.py" />
+        <option value="$PROJECT_DIR$/illusion/tool.py" />
+        <option value="$PROJECT_DIR$/illusion/phantom_sensation.py" />
+        <option value="$PROJECT_DIR$/illusion/__init__.py" />
+        <option value="$PROJECT_DIR$/illusion/four_tactors_tactile_brush.py" />
+        <option value="$PROJECT_DIR$/ui/main_ui.py" />
+        <option value="$PROJECT_DIR$/ui/play.py" />
+        <option value="$PROJECT_DIR$/ardui/arduino_connect.py" />
+        <option value="$PROJECT_DIR$/data/pre_study_one_data_pro.py" />
+        <option value="$PROJECT_DIR$/ui/SOA_test.py" />
+        <option value="$PROJECT_DIR$/ui/__init__.py" />
+        <option value="$PROJECT_DIR$/ui/SOA_test_duration.py" />
+        <option value="$PROJECT_DIR$/ui/pre_test_resolution.py" />
+        <option value="$PROJECT_DIR$/ui/random_num.py" />
+        <option value="$PROJECT_DIR$/ui/pre_study_1.py" />
+        <option value="$PROJECT_DIR$/ui/pre_test_1_training.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TactileIllusion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TactileIllusion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TactileIllusion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TactileIllusion" type="462c0819:PsiDirectoryNode" />
+              <item name="ardui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TactileIllusion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TactileIllusion" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TactileIllusion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TactileIllusion" type="462c0819:PsiDirectoryNode" />
+              <item name="illusion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TactileIllusion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TactileIllusion" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion" />
+      <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion\ui" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pre_test_1_training">
+    <configuration name="SOA_test_duration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TactileIllusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/SOA_test_duration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pre_study_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TactileIllusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/pre_study_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pre_test_1_training" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TactileIllusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/pre_test_1_training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pre_test_resolution" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TactileIllusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\kzhao\PycharmProjects\TactileIllusion\ui\pre_test_1_training.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="random_num" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TactileIllusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/random_num.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pre_test_1_training" />
+        <item itemvalue="Python.pre_study_1" />
+        <item itemvalue="Python.SOA_test_duration" />
+        <item itemvalue="Python.pre_test_resolution" />
+        <item itemvalue="Python.random_num" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fa72336-c2a7-4672-a55a-ac0b71ce342c" name="Default Changelist" comment="" />
+      <created>1543846078778</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543846078778</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18638466" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18696883" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/Include/test.py" />
+    <entry file="file://$PROJECT_DIR$/illusion/four_tactor_algo.py" />
+    <entry file="file://$PROJECT_DIR$/illusion/tool.py" />
+    <entry file="file://$PROJECT_DIR$/illusion/tactile_stroke.py" />
+    <entry file="file://$PROJECT_DIR$/illusion/vibrator.py" />
+    <entry file="file://$PROJECT_DIR$/illusion/app_tactile_motion.py" />
+    <entry file="file://$PROJECT_DIR$/illusion/phantom_sensation.py" />
+    <entry file="file://$PROJECT_DIR$/ui/res_2.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_1.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user_2_distance_.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user_2_distance_20.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user__distance_.txt" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="1704" selection-start-line="1704" selection-end-line="1704" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/res_user__distance_30.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/order_user_2_distance_20.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/order.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user_1_distance_30.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_1.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_10.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_20.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_80.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user_1_distance_70.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_70.txt" />
+    <entry file="file://$PROJECT_DIR$/illusion/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_30.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_50.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user_1_distance_60.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_60.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user_1_distance_10.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user_1_distance_80.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user_1_distance_20.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/res_user_1_distance_50.txt" />
+    <entry file="file://$PROJECT_DIR$/ui/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/pre_study_one_data_pro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/records.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/random_num.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/SOA_test_duration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/main_ui.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/illusion/four_tactors_tactile_brush.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ardui/arduino_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/pre_test_1_training.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/pre_study_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
