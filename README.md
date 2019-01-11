@@ -1,1 +1,1 @@
-"# Vibrotactile illusion for non-visual map exploration -- HCI" 
+Vibrotactile illusion for non-visual map exploration -- HCI
