@@ -85,8 +85,8 @@ Function of the interface and main operations
 '''
 def resolution_interface():
     root = tk.Tk()
-    root.minsize(820, 400)
-    root.maxsize(820, 400)
+    root.minsize(850, 400)
+    root.maxsize(850, 400)
     root.title('Pre-study: Investigate the effect of inter-actuator distance and body position on sensibility of Phantom Sensation')
     main_frame = tk.Frame(root, bg='white')
     main_frame.pack(fill=tk.X)
@@ -119,6 +119,7 @@ def resolution_interface():
                                                                                                      ipadx=20)
     tk.Radiobutton(main_frame, text='80', variable=v_distance_inter_actu, value=80, bg='white').grid(row=1, column=8,
                                                                                                      ipadx=20)
+
     '''
     Event listener of the Phantom Sensation Coordiante button -- used to calculate vibration order
     '''
@@ -154,6 +155,55 @@ def resolution_interface():
     v_proposed_order = tk.StringVar()
     v_proposed_order.set('* * * * * * * * * *')
     label_order = tk.Label(coordinate_frame, textvariable=v_proposed_order, bg='gray').grid(row=0, column=3)
+
+    def start_ps_train(coord_vib):
+        phantom_res_list, vib_duration = generate_tactile_brush_results(1,
+                                                                        v_distance_inter_actu.get(),
+                                                                        2000)
+        #print(coord_vib)
+        phantom_list = []
+        for phantom_item in phantom_res_list:
+            if coord_vib == phantom_item[0] and phantom_item[1] == 0:
+                phantom_list.append(coord_vib)
+                phantom_list.append(0)
+                phantom_list.append(phantom_item[2])
+                phantom_list.append(phantom_item[3])
+                phantom_list.append(phantom_item[4])
+                phantom_list.append(phantom_item[5])
+        phantom_list.append(2000)
+
+        # print(phantom_list)
+        try:
+            _thread.start_new_thread(generate_phantom_arduino, (phantom_list,))
+        except:
+            print('Start thread exception')
+    def start_train():
+        str_coord_list = v_coordinate_list.get()
+        str_coord_list = str_coord_list.strip('(').strip(')')
+        list_coord = str_coord_list.split(', ')
+        str_pro_order = v_proposed_order.get()
+        str_pro_order = str_pro_order.strip('(').strip(')')
+        list_pro_order = str_pro_order.split(', ')
+        #print(list_coord)
+        #print(list_pro_order)
+        index_1 = list_pro_order.index('1')
+        index_2 = list_pro_order.index('2')
+        index_3 = list_pro_order.index('3')
+        index_4 = list_pro_order.index('4')
+        index_5 = list_pro_order.index('5')
+        #print(int(list_coord[index_1]))
+        start_ps_train(int(list_coord[index_1]))
+        time.sleep(3)
+        start_ps_train(int(list_coord[index_2]))
+        time.sleep(3)
+        start_ps_train(int(list_coord[index_3]))
+        time.sleep(3)
+        start_ps_train(int(list_coord[index_4]))
+        time.sleep(3)
+        start_ps_train(int(list_coord[index_5]))
+        time.sleep(3)
+
+    btn_train = tk.Button(coordinate_frame, text='Train', bg='white', command=start_train).grid(row=0, column=4)
 
     info_coord_frame = tk.Frame(root, bg='white')
     info_coord_frame.pack(fill=tk.X)
@@ -201,6 +251,7 @@ def resolution_interface():
         str_coord_list = v_coordinate_list.get()
         str_coord_list = str_coord_list.strip('(').strip(')')
         list_coord = str_coord_list.split(', ')
+        print(list_coord)
         str_pro_order = v_proposed_order.get()
         str_pro_order = str_pro_order.strip('(').strip(')')
         list_pro_order = str_pro_order.split(', ')

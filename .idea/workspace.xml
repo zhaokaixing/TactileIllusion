@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3fa72336-c2a7-4672-a55a-ac0b71ce342c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/pre_study_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/pre_study_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,18 +16,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ui/pre_study_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+            <state relative-caret-position="157">
+              <caret line="220" column="7" lean-forward="true" selection-start-line="220" selection-start-column="7" selection-end-line="220" selection-end-column="7" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/pre_test_1_training.py">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -86,12 +82,12 @@
         <option value="$PROJECT_DIR$/ui/SOA_test_duration.py" />
         <option value="$PROJECT_DIR$/ui/pre_test_resolution.py" />
         <option value="$PROJECT_DIR$/ui/random_num.py" />
-        <option value="$PROJECT_DIR$/ui/pre_study_1.py" />
         <option value="$PROJECT_DIR$/ui/pre_test_1_training.py" />
+        <option value="$PROJECT_DIR$/ui/pre_study_1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="980" />
     <option name="height" value="1040" />
@@ -104,6 +100,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -135,7 +132,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -162,7 +158,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.pre_test_1_training">
+  <component name="RunManager" selected="Python.pre_study_1">
     <configuration name="SOA_test_duration" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TactileIllusion" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -270,8 +266,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.pre_test_1_training" />
         <item itemvalue="Python.pre_study_1" />
+        <item itemvalue="Python.pre_test_1_training" />
         <item itemvalue="Python.SOA_test_duration" />
         <item itemvalue="Python.pre_test_resolution" />
         <item itemvalue="Python.random_num" />
@@ -301,7 +297,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18638466" />
@@ -309,12 +305,12 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18696883" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1713881" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3286119" />
@@ -378,19 +374,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/records.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/random_num.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/records.csv" />
+    <entry file="file://$PROJECT_DIR$/ui/random_num.py" />
     <entry file="file://$PROJECT_DIR$/ui/SOA_test_duration.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -436,8 +421,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/pre_study_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+        <state relative-caret-position="157">
+          <caret line="220" column="7" lean-forward="true" selection-start-line="220" selection-start-column="7" selection-end-line="220" selection-end-column="7" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
