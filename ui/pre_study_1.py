@@ -177,6 +177,11 @@ def resolution_interface():
             _thread.start_new_thread(generate_phantom_arduino, (phantom_list,))
         except:
             print('Start thread exception')
+
+    '''
+    Function used to start training session, during training, the order is always 1, 2, 3, 4, 5
+    The interval is 1s.
+    '''
     def start_train():
         str_coord_list = v_coordinate_list.get()
         str_coord_list = str_coord_list.strip('(').strip(')')
