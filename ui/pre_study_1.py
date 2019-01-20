@@ -6,6 +6,7 @@ import numpy as np
 from illusion.four_tactors_tactile_brush import generate_tactile_brush_results
 from ardui.arduino_connect import generate_phantom_arduino
 import _thread
+import math
 '''
 @author: zhaokaixing
 @time: 10/01/2019
@@ -67,6 +68,9 @@ def generate_vib_point(distance):
 
     final_res_list = []
     for num_item in res_list:
+        print(num_item)
+        if num_item < distance / 2:
+            num_item = math.ceil(num_item)
         final_res_list.append(int(round(num_item)))
 
     return final_res_list
@@ -75,7 +79,7 @@ def generate_vib_point(distance):
 Function used to write the results to csv file
 '''
 def write_csv(list):
-    csv_file = open('records.csv', 'a+')
+    csv_file = open('records_feedback.csv', 'a+')
     csv_writer = csv.writer(csv_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL, lineterminator='\n')
     csv_writer.writerow(list)
     csv_file.close()
