@@ -1,6 +1,6 @@
 from pyfirmata import Arduino, util
 import time
-
+import _thread
 '''
 Author: Kaixing ZHAO
 This file is used to connect and send commands to Arduino
@@ -14,6 +14,7 @@ ana_out_1 = board.get_pin('d:3:p')
 ana_out_2 = board.get_pin('d:5:p')
 ana_out_3 = board.get_pin('d:9:p')
 ana_out_4 = board.get_pin('d:11:p')
+print('Arduino ready!')
 
 '''
 Function used to generate Phantom Sensation, parameter phantom_result is used to receive 
@@ -53,7 +54,7 @@ def generate_atm_arduino(atm_result_start, atm_result_end, SOA):
         else:
             final_vib.append(atm_result_end[i])
     print(final_vib)
-    print(start_position)
+    print('-----------------------------------------')
 
     if start_position == 1:
         for times in range(0, 5):
@@ -126,7 +127,6 @@ def generate_atm_arduino(atm_result_start, atm_result_end, SOA):
     if start_position == 3:
         for times in range(0, 5):
             if SOA <= duration:
-                print('test')
                 ana_out_3.write(final_vib[2])
                 time.sleep(SOA / 1000)
                 # ana_out_1.write(final_vib[0])

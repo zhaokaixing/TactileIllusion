@@ -1,2 +1,5 @@
-test = [2, 3, 4, 5, 6]
-print(test[-2])
+x = 1
+if x == 1:
+    y = 2
+
+print(2)
