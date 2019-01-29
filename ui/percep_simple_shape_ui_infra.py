@@ -8,12 +8,18 @@ from illusion.four_tactors_tactile_brush import generate_tactile_brush_results
 from illusion.four_tactors_tactile_brush import generate_SOA
 from ardui.arduino_connect import generate_atm_arduino
 import _thread
+'''
+Author: Kaixing ZHAO
+This file is the user interface which can be used to choose different directional images and test the users' ability 
+to follow a path with only apparent tactile motion
+'''
 
-
+'''Global variables to record x, y positions and the image path'''
 str_x_global = 0.0
 str_y_global = 0.0
 shape_path = ''
 
+'''Function to update the global variables with the finger position changes'''
 def set_coor_global(x, y):
     global str_x_global
     global str_y_global
@@ -21,6 +27,7 @@ def set_coor_global(x, y):
     str_y_global = y
     #print(str_x_global, str_y_global)
 
+'''Function to compare current pixel color with designed colors to determine the direction'''
 def compare_pixel(rec_x, rec_y, flag):
     #print(shape_path)
     img = cv2.imread(shape_path)
@@ -58,6 +65,7 @@ def compare_pixel(rec_x, rec_y, flag):
 
     return flag
 
+'''Function to control Arduino and launch the Apparent Tactile Motion according to direction'''
 def start_atm(int_direction):
     distance = 20
     no_direction = int_direction
@@ -85,10 +93,10 @@ def start_atm(int_direction):
         temp_end_x = distance
         temp_end_y = distance
     elif no_direction == 4:
-        temp_start_x = distance
-        temp_start_y = 0
-        temp_end_x = 0
-        temp_end_y = distance
+        temp_start_x = 0
+        temp_start_y = distance
+        temp_end_x = distance
+        temp_end_y = 0
 
     if no_direction != 0:
         for phantom_item in phantom_res_list:
@@ -122,6 +130,7 @@ def start_atm(int_direction):
         print('End Vib List: ')
         print(end_vib_list)
 
+'''Function to listen to the socket port and receive the real time position data'''
 def receive_from_infra():
     HOST = '127.0.0.1'
     PORT = 19000
@@ -148,11 +157,13 @@ def receive_from_infra():
 
         clientsocket.close()
 
+'''Function to convert initial received data to real image scale positions'''
 def convert_coord(x_origin, y_origin, image_height, image_width):
     x = image_width * x_origin
     y = image_height * y_origin
     return x, y
 
+'''Function of the UI, could draw position in real time'''
 def simple_shape_interface():
     root = tk.Tk()
     root.minsize(800, 600)
@@ -201,6 +212,7 @@ def simple_shape_interface():
 
     root.mainloop()
 
+'''Main function, call two different threads to listen socket port and draw UI respectively'''
 def main_process():
     threads = []
     t1 = threading.Thread(target=receive_from_infra)
