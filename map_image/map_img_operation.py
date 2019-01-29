@@ -180,6 +180,7 @@ def start_atm(int_direction):
 
         try:
             _thread.start_new_thread(generate_atm_arduino, (start_vib_list, end_vib_list, time_SOA))
+            #_thread.start_new_thread(generate_atm_arduino, (end_vib_list, start_vib_list, time_SOA))
         except:
             print('Infrared ATM error')
 

@@ -57,7 +57,7 @@ def generate_atm_arduino(atm_result_start, atm_result_end, SOA):
     print('-----------------------------------------')
 
     if start_position == 1:
-        for times in range(0, 5):
+        for times in range(0, 1):
             if SOA <= duration:
                 ana_out_1.write(final_vib[0])
                 time.sleep(SOA/1000)
@@ -91,7 +91,7 @@ def generate_atm_arduino(atm_result_start, atm_result_end, SOA):
             time.sleep(0.5)
 
     if start_position == 2:
-        for times in range(0, 5):
+        for times in range(0, 1):
             if SOA <= duration:
                 ana_out_2.write(final_vib[1])
                 time.sleep(SOA/1000)
@@ -125,7 +125,7 @@ def generate_atm_arduino(atm_result_start, atm_result_end, SOA):
             time.sleep(0.5)
 
     if start_position == 3:
-        for times in range(0, 5):
+        for times in range(0, 1):
             if SOA <= duration:
                 ana_out_3.write(final_vib[2])
                 time.sleep(SOA / 1000)
@@ -159,7 +159,7 @@ def generate_atm_arduino(atm_result_start, atm_result_end, SOA):
             time.sleep(0.5)
 
     if start_position == 4:
-        for times in range(0, 5):
+        for times in range(0, 1):
             if SOA <= duration:
                 ana_out_4.write(final_vib[3])
                 time.sleep(SOA / 1000)
