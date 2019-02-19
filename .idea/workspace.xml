@@ -1,10 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fa72336-c2a7-4672-a55a-ac0b71ce342c" name="Default Changelist" comment="">
+    <list default="true" id="3fa72336-c2a7-4672-a55a-ac0b71ce342c" name="Default Changelist" comment="Add comments for percep_simple_shape_ui_infra file">
+      <change afterPath="$PROJECT_DIR$/ui/cvtest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/BackslashLineBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/CircleBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/CurveLineBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/HorizontalLineBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/RectangleBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/SlashLineBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/SquareBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/TriangleBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/VerticalLineBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/ZigLineBlack.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/rectangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/square.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/triangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/shapes/zig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/single_vibrator_perception.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui/three_vibration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/infra_map_ui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ardui/arduino_connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/ardui/arduino_connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/backslash.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/shapes/backslash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/horizontal.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/shapes/horizontal.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/percep_simple_shape_ui_infra.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/percep_simple_shape_ui_infra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/slash.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/shapes/slash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/vertical.png" beforeDir="false" afterPath="$PROJECT_DIR$/ui/shapes/vertical.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,10 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui/percep_simple_shape_ui_infra.py">
+        <entry file="file://$PROJECT_DIR$/ui/three_vibration.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="210" column="24" lean-forward="true" selection-start-line="210" selection-start-column="24" selection-end-line="210" selection-end-column="24" />
+            <state relative-caret-position="-484">
+              <caret line="297" column="24" lean-forward="true" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -27,12 +48,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/main_ui.py">
+        <entry file="file://$PROJECT_DIR$/ui/cvtest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="3" />
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ardui/arduino_connect.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1463">
+              <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,18 +82,9 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>x_tactors</find>
-      <find>generate_phantom_vib</find>
-      <find>duration</find>
-      <find>c_btn1_end</find>
-      <find>choose_action_2</find>
-      <find>choose_action_1</find>
-      <find>tactor_layout_frame</find>
-      <find>logo_path</find>
       <find>generate_order_official</find>
       <find>res_list</find>
       <find>3</find>
-      <find>generate_tactile_brush_results</find>
       <find>text</find>
       <find>save_res</find>
       <find>generate_random_order</find>
@@ -72,13 +96,22 @@
       <find>change</find>
       <find>generate_atm_arduino</find>
       <find>test</find>
-      <find>print</find>
       <find>ok</find>
       <find>receive_from_infra</find>
       <find>print_coor</find>
       <find>plt</find>
       <find>times</find>
       <find>start_atm</find>
+      <find>generate_tactile_brush_results</find>
+      <find>elipse</find>
+      <find>v_shape</find>
+      <find>root</find>
+      <find>compar</find>
+      <find>print</find>
+      <find>stop_all_vibration_arduino</find>
+      <find>stop_single_vibration_arduino</find>
+      <find>shape_path</find>
+      <find>coord_global</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,7 +131,6 @@
         <option value="$PROJECT_DIR$/illusion/phantom_sensation.py" />
         <option value="$PROJECT_DIR$/illusion/__init__.py" />
         <option value="$PROJECT_DIR$/illusion/four_tactors_tactile_brush.py" />
-        <option value="$PROJECT_DIR$/ui/main_ui.py" />
         <option value="$PROJECT_DIR$/ui/play.py" />
         <option value="$PROJECT_DIR$/data/pre_study_one_data_pro.py" />
         <option value="$PROJECT_DIR$/ui/SOA_test.py" />
@@ -115,17 +147,22 @@
         <option value="$PROJECT_DIR$/ui/__init__.py" />
         <option value="$PROJECT_DIR$/map_image/middle.py" />
         <option value="$PROJECT_DIR$/map_image/percep_simple_shape_ui.py" />
-        <option value="$PROJECT_DIR$/ardui/arduino_connect.py" />
         <option value="$PROJECT_DIR$/map_image/map_img_operation.py" />
+        <option value="$PROJECT_DIR$/ui/main_ui.py" />
         <option value="$PROJECT_DIR$/ui/percep_simple_shape_ui_infra.py" />
+        <option value="$PROJECT_DIR$/ui/testfile.py" />
+        <option value="$PROJECT_DIR$/ui/single_vibrator_perception.py" />
+        <option value="$PROJECT_DIR$/ardui/arduino_connect.py" />
+        <option value="$PROJECT_DIR$/ui/cvtest.py" />
+        <option value="$PROJECT_DIR$/ui/three_vibration.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -167,6 +204,12 @@
               <item name="TactileIllusion" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TactileIllusion" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TactileIllusion" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+              <item name="shapes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -176,16 +219,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion\ui\shapes" />
       <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion\ui" />
-      <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion\ui\line_image" />
       <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion\map_image" />
       <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion\ui\shapes" />
+      <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion\ui" />
+      <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion\ui\line_image" />
       <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion\map_image" />
       <recent name="C:\Users\kzhao\PycharmProjects\TactileIllusion" />
     </key>
@@ -202,8 +249,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.infra_map_ui">
-    <configuration name="infra_map_ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.three_vibration">
+    <configuration name="cvtest" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TactileIllusion" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -215,70 +262,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/infra_map_ui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="main_ui" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TactileIllusion" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/main_ui.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="map_img_operation" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TactileIllusion" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/map_image" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/map_image/map_img_operation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="middle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="TactileIllusion" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/map_image" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/map_image/middle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/cvtest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -308,13 +292,76 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="single_vibrator_perception" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TactileIllusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/single_vibrator_perception.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testfile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TactileIllusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/testfile.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="three_vibration" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="TactileIllusion" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui/three_vibration.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.infra_map_ui" />
+        <item itemvalue="Python.three_vibration" />
+        <item itemvalue="Python.cvtest" />
+        <item itemvalue="Python.single_vibrator_perception" />
+        <item itemvalue="Python.testfile" />
         <item itemvalue="Python.percep_simple_shape_ui_infra" />
-        <item itemvalue="Python.map_img_operation" />
-        <item itemvalue="Python.main_ui" />
-        <item itemvalue="Python.middle" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1548750237672</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add comments for percep_simple_shape_ui_infra file">
+      <created>1548753095276</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1548753095276</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -377,15 +431,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20489095" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14330874" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966952" weight="0.3753541" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32719547" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49966952" weight="0.29577464" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,30 +458,10 @@
     <MESSAGE value="Add map infrared codes" />
     <MESSAGE value="Add arduino infrered logical codes" />
     <MESSAGE value="Add UI for independent directions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add UI for independent directions" />
+    <MESSAGE value="Add comments for percep_simple_shape_ui_infra file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add comments for percep_simple_shape_ui_infra file" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/illusion/app_tactile_motion.py" />
-    <entry file="file://$PROJECT_DIR$/illusion/phantom_sensation.py" />
-    <entry file="file://$PROJECT_DIR$/ui/res_2.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/res_1.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/res_user_2_distance_.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/res_user_2_distance_20.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/res_user__distance_.txt" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="1704" selection-start-line="1704" selection-end-line="1704" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/res_user__distance_30.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/order_user_2_distance_20.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/order.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/res_user_1_distance_30.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_1.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_10.txt" />
-    <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_20.txt" />
     <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_80.txt" />
     <entry file="file://$PROJECT_DIR$/ui/res_user_1_distance_70.txt" />
     <entry file="file://$PROJECT_DIR$/ui/order_user_1_distance_70.txt" />
@@ -446,16 +479,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/SOA_test_duration.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -498,21 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/records.csv">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="-1330">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="190">
-          <caret line="244" column="36" lean-forward="true" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="36" />
-        </state>
-      </provider>
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/precision_per_zone_user.csv">
       <provider selected="true" editor-type-id="csv-text-editor">
         <state relative-caret-position="171">
@@ -544,20 +552,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ardui/arduino_connect.py">
+    <entry file="file://$PROJECT_DIR$/ui/infra_map_ui.py" />
+    <entry file="file://$PROJECT_DIR$/map_image/direc.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/shapes/backslashBlack.png" />
+    <entry file="file://$PROJECT_DIR$/zone_resolution.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/records.csv">
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="190">
+          <caret line="244" column="36" lean-forward="true" selection-start-line="244" selection-start-column="36" selection-end-line="244" selection-end-column="36" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="-1330">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/SOA_test_duration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="161" column="31" selection-start-line="161" selection-start-column="31" selection-end-line="161" selection-end-column="31" />
+        <state relative-caret-position="190">
+          <caret line="98" column="40" lean-forward="true" selection-start-line="98" selection-start-column="40" selection-end-line="98" selection-end-column="40" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#20#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/illusion/four_tactors_tactile_brush.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-998">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="-437">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -566,41 +597,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/map_image/map_img_operation.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="182" column="13" selection-start-line="182" selection-start-column="13" selection-end-line="182" selection-end-column="13" />
+        <state relative-caret-position="1425">
+          <caret line="75" column="49" lean-forward="true" selection-start-line="75" selection-start-column="49" selection-end-line="75" selection-end-column="49" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/map_image/direc.png">
+    <entry file="file://$PROJECT_DIR$/ui/testfile.py" />
+    <entry file="file://$PROJECT_DIR$/ui/percep_simple_shape_ui_infra.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="111" column="51" selection-start-line="111" selection-start-column="51" selection-end-line="111" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/tkinter/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="1488" selection-start-line="1488" selection-end-line="1488" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="915" selection-start-line="915" selection-end-line="915" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/single_vibrator_perception.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="126" column="23" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/shapes/rectangle.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/shapes/zig.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/shapes/triangle.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ardui/arduino_connect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1463">
+          <caret line="88" column="31" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/shapes/vertical.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/main_ui.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6346">
+          <caret line="334" lean-forward="true" selection-start-line="334" selection-end-line="334" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/cvtest.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
-          <caret line="7" selection-start-line="7" selection-end-line="11" selection-end-column="3" />
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/infra_map_ui.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/ui/shapes/horizontal.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/percep_simple_shape_ui_infra.py">
+    <entry file="file://$PROJECT_DIR$/ui/shapes/backslash.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/shapes/slash.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/three_vibration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="210" column="24" lean-forward="true" selection-start-line="210" selection-start-column="24" selection-end-line="210" selection-end-column="24" />
+        <state relative-caret-position="-484">
+          <caret line="297" column="24" lean-forward="true" selection-start-line="297" selection-start-column="24" selection-end-line="297" selection-end-column="24" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>

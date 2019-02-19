@@ -7,7 +7,10 @@ import numpy as np
 from illusion.four_tactors_tactile_brush import generate_tactile_brush_results
 from illusion.four_tactors_tactile_brush import generate_SOA
 from ardui.arduino_connect import generate_atm_arduino
+from ardui.arduino_connect import generate_all_vibration_arduino
+from ardui.arduino_connect import stop_all_vibration_arduino
 import _thread
+import time
 '''
 Author: Kaixing ZHAO
 This file is the user interface which can be used to choose different directional images and test the users' ability 
@@ -38,15 +41,16 @@ def compare_pixel(rec_x, rec_y, flag):
     color_pixel = img[y_final][x_final]
     #print(color_pixel)
 
-    horizontal_arr = [255, 0, 0]
+    horizontal_arr = [0, 0, 255]
     np_horizontal_arr = np.array(horizontal_arr)
     vertical_arr = [0, 255, 0]
     np_vertical_arr = np.array(vertical_arr)
-    slash_arr = [0, 0, 255]
+    slash_arr = [255, 0, 0]
     np_slash_arr = np.array(slash_arr)
-    backslash_arr = [255, 255, 0]
+    backslash_arr = [0, 255, 255]
     np_backslash_arr = np.array(backslash_arr)
 
+    print(color_pixel)
     if (color_pixel == np_horizontal_arr).all():
         int_direction = 1
     elif (color_pixel == np_vertical_arr).all():
@@ -78,21 +82,25 @@ def start_atm(int_direction):
     temp_end_y = 0
 
     if no_direction == 1:
+        print('!!!!!!!!!!!!!!!!!!----1')
         temp_start_x = 0
         temp_start_y = 0
         temp_end_x = distance
         temp_end_y = 0
     elif no_direction == 2:
+        print('!!!!!!!!!!!!!!!!!!----2')
         temp_start_x = 0
         temp_start_y = 0
         temp_end_x = 0
         temp_end_y = distance
     elif no_direction == 3:
+        print('!!!!!!!!!!!!!!!!!!----3')
         temp_start_x = 0
         temp_start_y = 0
         temp_end_x = distance
         temp_end_y = distance
     elif no_direction == 4:
+        print('!!!!!!!!!!!!!!!!!!----4')
         temp_start_x = 0
         temp_start_y = distance
         temp_end_x = distance
@@ -120,6 +128,7 @@ def start_atm(int_direction):
 
         time_SOA = generate_SOA(500, vib_duration)
         try:
+            #_thread.start_new_thread(stop_all_vibration_arduino, ())
             _thread.start_new_thread(generate_atm_arduino, (start_vib_list, end_vib_list, time_SOA))
             # _thread.start_new_thread(generate_atm_arduino, (end_vib_list, start_vib_list, time_SOA))
         except:
@@ -129,6 +138,12 @@ def start_atm(int_direction):
         print(start_vib_list)
         print('End Vib List: ')
         print(end_vib_list)
+
+    '''else:
+        try:
+            _thread.start_new_thread(generate_all_vibration_arduino, ())
+        except:
+            print('Infrared All Vibration error')'''
 
 '''Function to listen to the socket port and receive the real time position data'''
 def receive_from_infra():
@@ -174,21 +189,34 @@ def simple_shape_interface():
 
     v_shape = tk.IntVar()
     label_shape_text = tk.Label(main_frame, text='Shape', bg='white').grid(row=0, column=0)
-    tk.Radiobutton(main_frame, text='Horizontal', variable=v_shape, value=1, bg='white').grid(row=0, column=1, ipadx=20)
-    tk.Radiobutton(main_frame, text='Vertical', variable=v_shape, value=2, bg='white').grid(row=0, column=2, ipadx=20)
-    tk.Radiobutton(main_frame, text='Slash', variable=v_shape, value=3, bg='white').grid(row=0, column=3, ipadx=20)
-    tk.Radiobutton(main_frame, text='Backslash', variable=v_shape, value=4, bg='white').grid(row=0, column=4, ipadx=20)
+    tk.Radiobutton(main_frame, text='Horizontal', variable=v_shape, value=1, bg='white').grid(row=0, column=1, ipadx=25)
+    tk.Radiobutton(main_frame, text='Vertical', variable=v_shape, value=2, bg='white').grid(row=0, column=2, ipadx=25)
+    tk.Radiobutton(main_frame, text='Slash', variable=v_shape, value=3, bg='white').grid(row=0, column=3, ipadx=25)
+    tk.Radiobutton(main_frame, text='Backslash', variable=v_shape, value=4, bg='white').grid(row=0, column=4, ipadx=25)
+    tk.Radiobutton(main_frame, text='ZigZag', variable=v_shape, value=6, bg='white').grid(row=0, column=6, ipadx=25)
+
+    tk.Radiobutton(main_frame, text='Square', variable=v_shape, value=7, bg='white').grid(row=2, column=1, ipadx=25)
+    tk.Radiobutton(main_frame, text='Rectangle', variable=v_shape, value=8, bg='white').grid(row=2, column=2, ipadx=25)
+    tk.Radiobutton(main_frame, text='Triangle', variable=v_shape, value=9, bg='white').grid(row=2, column=3, ipadx=25)
     def choose_shape_click():
         no_shape = v_shape.get()
         global shape_path
         if no_shape == 1:
-            shape_path = 'horizontal.png'
+            shape_path = './shapes/horizontal.png'
         elif no_shape == 2:
-            shape_path = 'vertical.png'
+            shape_path = './shapes/vertical.png'
         elif no_shape == 3:
-            shape_path = 'slash.png'
+            shape_path = './shapes/slash.png'
         elif no_shape == 4:
-            shape_path = 'backslash.png'
+            shape_path = './shapes/backslash.png'
+        elif no_shape == 6:
+            shape_path = './shapes/zig.png'
+        elif no_shape == 7:
+            shape_path = './shapes/square.png'
+        elif no_shape == 8:
+            shape_path = './shapes/rectangle.png'
+        elif no_shape == 9:
+            shape_path = './shapes/triangle.png'
 
         img = cv2.imread(shape_path)
         '''img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
@@ -207,8 +235,10 @@ def simple_shape_interface():
                 cv2.destroyAllWindows()
                 return 0
 
-    btn_shape = tk.Button(main_frame, text='Choose Shape', command=choose_shape_click, width=25)
-    btn_shape.grid(row=0, column=5)
+    button_frame = tk.Frame(root, bg='white')
+    button_frame.pack(fill=tk.X)
+    btn_shape = tk.Button(button_frame, text='Choose Shape', command=choose_shape_click, width=42, height=5, bg='green')
+    btn_shape.pack()
 
     root.mainloop()
 
