@@ -1,7 +1,7 @@
 import tkinter as tk
 from illusion.four_tactors_tactile_brush import generate_tactile_brush_results
 from ardui.arduino_connect import generate_phantom_arduino
-from ardui.arduino_connect import generate_atm_arduino
+from ardui.arduino_connect import generate_atm_arduino_without_single_vibration
 from illusion.four_tactors_tactile_brush import generate_SOA
 from ardui.arduino_connect import stop_arduino
 import _thread
@@ -29,7 +29,7 @@ def main_interface():
 
     tk.Radiobutton(main_frame, text='0.25', variable=v, value=0.25, bg='white').grid(row=0, column=1, ipadx=20)
     tk.Radiobutton(main_frame, text='0.5', variable=v, value=0.5, bg='white').grid(row=0, column=2, ipadx=20)
-    tk.Radiobutton(main_frame, text='0.75', variable=v, value=0.75, bg='white').grid(row=0, column=3, ipadx=20)
+    tk.Radiobutton(main_frame, text='0.7', variable=v, value=0.7, bg='white').grid(row=0, column=3, ipadx=20)
     tk.Radiobutton(main_frame, text='1', variable=v, value=1, bg='white').grid(row=0, column=4, ipadx=20)
 
     txt_distance = tk.Entry(main_frame, fg='black', bg='white', width=20)
@@ -257,7 +257,7 @@ def main_interface():
         time_SOA = generate_SOA(int(str(txt_T.get())), vib_duration)
 
         try:
-            _thread.start_new_thread(generate_atm_arduino, (start_vib_list, end_vib_list, time_SOA))
+            _thread.start_new_thread(generate_atm_arduino_without_single_vibration, (start_vib_list, end_vib_list, time_SOA))
         except:
             print('Start thread exception')
 
