@@ -7,12 +7,19 @@ from illusion.four_tactors_tactile_brush import generate_tactile_brush_results
 from illusion.four_tactors_tactile_brush import generate_SOA
 from ardui.arduino_connect import generate_atm_arduino_without_single_vibration
 import _thread
+from ardui.arduino_connect import generate_single_vibration_arduino
 
 str_x_global = 0.0
 str_y_global = 0.0
 shape_path = ''
 int_direction = 0
 flag_list = []
+
+
+def traverse_list(list):
+    for i in list:
+        if (i != 0) and (not ( i is None)):
+            return i
 
 
 def compare_pixel_atm(rec_x, rec_y, flag):
@@ -31,26 +38,37 @@ def compare_pixel_atm(rec_x, rec_y, flag):
 
     global int_direction
     if shape_path == './shapeandroid/horizontalMobile.png':
-        '''horizontal_arr = [0, 0, 255]
+        horizontal_arr = [0, 0, 255]
         np_horizontal_arr = np.array(horizontal_arr)
+        #print('66666666666666666666666')
+        #print(traverse_list(flag_list))
+        initial_direction = traverse_list(flag_list)
 
         if x_final < width_resize/2 and (color_pixel == np_horizontal_arr).all():
             if flag_list[-1] == 0:
-                int_direction = -1
+                if initial_direction == 1:
+                    int_direction = 1
+                else:
+                    int_direction = -1
             if flag_list[-1] == 1:
                 int_direction = 1
         elif x_final >= width_resize/2 and (color_pixel == np_horizontal_arr).all():
             if flag_list[-1] == 0:
-                int_direction = 1
+                if initial_direction == -1:
+                    int_direction = -1
+                else:
+                    int_direction = 1
             if flag_list[-1] == -1:
                 int_direction = -1
+
         else:
             int_direction = 0
 
         if flag != int_direction:
             start_atm(int_direction)
-            flag = int_direction'''
-        horizontal_arr = [0, 0, 255]
+            flag = int_direction
+
+        '''horizontal_arr = [0, 0, 255]
         np_horizontal_arr = np.array(horizontal_arr)
 
         if x_final < width_resize / 2 and (color_pixel == np_horizontal_arr).all():
@@ -77,9 +95,9 @@ def compare_pixel_atm(rec_x, rec_y, flag):
                     flag = int_direction
         else:
             int_direction = 0
-            if flag != int_direction:
+        if flag != int_direction:
                 start_atm(int_direction)
-                flag = int_direction
+                flag = int_direction'''
 
 
     elif shape_path == './shapeandroid/squareMobile.png':
@@ -129,7 +147,7 @@ def compare_pixel_atm(rec_x, rec_y, flag):
 def start_atm_duration(int_direction, duration):
     distance = 20
     no_direction = int_direction
-    phantom_res_list, vib_duration = generate_tactile_brush_results(1.0, distance, duration)
+    phantom_res_list, vib_duration = generate_tactile_brush_results(0.7, distance, duration)
     start_vib_list = []
     end_vib_list = []
     temp_start_x = 0
@@ -323,7 +341,7 @@ def receive_from_android():
                 flag_direction = flag_get
 
         clientSocket.close()
-    tcpServerSocket.close()
+        #tcpServerSocket.close()
 
 def convert_coord(x_origin, y_origin, image_height, image_width):
     x = image_width * x_origin
@@ -354,6 +372,8 @@ def image_ui():
         no_shape = v_shape.get()
         global shape_path
         global str_x_global, str_y_global
+        global int_direction
+        global flag_list
         if no_shape == 1:
             shape_path = './shapeandroid/horizontalMobile.png'
         elif no_shape == 2:
@@ -388,6 +408,9 @@ def image_ui():
                 cv2.destroyAllWindows()
                 str_x_global = 0.0
                 str_y_global = 0.0
+                shape_path = ''
+                int_direction = 0
+                flag_list = []
                 return 0
 
     button_frame = tk.Frame(root, bg='white')

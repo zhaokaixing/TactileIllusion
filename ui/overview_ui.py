@@ -3,7 +3,9 @@ from ardui.arduino_connect import generate_atm_arduino_without_single_vibration_
 import _thread
 from illusion.four_tactors_tactile_brush import generate_tactile_brush_results
 from illusion.four_tactors_tactile_brush import generate_SOA
+from ardui.arduino_connect import generate_single_vibration_arduino
 import time
+import threading
 
 
 def square_click():
@@ -77,7 +79,7 @@ def overview_ui_main():
 def start_atm_duration(int_direction, duration):
     distance = 20
     no_direction = int_direction
-    phantom_res_list, vib_duration = generate_tactile_brush_results(1.0, distance, duration)
+    phantom_res_list, vib_duration = generate_tactile_brush_results(0.7, distance, duration)
     start_vib_list = []
     end_vib_list = []
     temp_start_x = 0

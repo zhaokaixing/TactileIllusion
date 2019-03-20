@@ -20,26 +20,43 @@ print('Arduino ready!')
 '''
 Function to generate vibration on port 3
 '''
-def generate_single_vibration_arduino():
+def generate_single_vibration_arduino(level):
     print('Single Vibration')
-    ana_out_4.write(1)
+    ana_out_4.write(level)
 
+    '''time.sleep(1.5)
+    for i in range(0, 3):
+        ana_out_1.write(0.7)
+        time.sleep(0.2)
+        # ana_out_1.write(final_vib[0])
+        ana_out_2.write(0.7)
+        time.sleep(0.4)
+        ana_out_1.write(0)
+        ana_out_2.write(0.7)
+        time.sleep(0.2)
+        ana_out_2.write(0)
+        time.sleep(0.5)
+    ana_out_4.write(0.7)
+    time.sleep(1.5)
+    ana_out_4.write(0)'''
+
+generate_single_vibration_arduino(0.7)
 
 def generate_vibration_simple(vib_list):
     if vib_list[0] == 1:
-        ana_out_1.write(1.0)
+        ana_out_1.write(0.7)
     elif vib_list[0] == 0:
         ana_out_1.write(0)
     if vib_list[1] == 1:
-        ana_out_2.write(1.0)
+        ana_out_2.write(0.7)
     elif vib_list[1] == 0:
         ana_out_2.write(0)
     if vib_list[2] == 1:
-        ana_out_3.write(1.0)
+        ana_out_3.write(0.7)
     elif vib_list[2] == 0:
         ana_out_3.write(0)
     if vib_list[3] == 1:
-        ana_out_4.write(1.0)
+        ana_out_4.write(0.7)
     elif vib_list[3] == 0:
         ana_out_4.write(0)
 
@@ -395,7 +412,9 @@ def generate_atm_arduino_without_single_vibration(atm_result_start, atm_result_e
 
             time.sleep(0.5)
 
+
 def generate_atm_arduino_without_single_vibration_overview(atm_result_start, atm_result_end, SOA):
+    time.sleep(SOA / 1000)
     print('Apparent Tactile Motion')
 
     duration = atm_result_end[6]
@@ -545,6 +564,7 @@ def generate_atm_arduino_without_single_vibration_overview(atm_result_start, atm
                 ana_out_3.write(0)
 
             time.sleep(0.5)
+
 
 def stop_arduino():
     board.exit()

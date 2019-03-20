@@ -37,7 +37,7 @@ def compare_pixel(rec_x, rec_y):
     np_vib_arr = np.array(vib_arr)
     if (color_pixel == np_vib_arr).all():
         try:
-            _thread.start_new_thread(generate_single_vibration_arduino, ())
+            _thread.start_new_thread(generate_single_vibration_arduino, (1,))
         except:
             print('Infrared Single Vibration error')
     else:
