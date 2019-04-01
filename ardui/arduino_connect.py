@@ -40,7 +40,7 @@ def generate_single_vibration_arduino(level):
     time.sleep(1.5)
     ana_out_4.write(0)'''
 
-generate_single_vibration_arduino(0.7)
+#generate_single_vibration_arduino(0.7)
 
 def generate_vibration_simple(vib_list):
     if vib_list[0] == 1:

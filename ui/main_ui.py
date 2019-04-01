@@ -252,6 +252,8 @@ def main_interface():
         end_vib_list.append(vib_duration)
         change_color_tactor(start_vib_list)
         change_color_tactor(end_vib_list)
+        print('66666666666666')
+        print(vib_duration)
         print(end_vib_list)
 
         time_SOA = generate_SOA(int(str(txt_T.get())), vib_duration)
